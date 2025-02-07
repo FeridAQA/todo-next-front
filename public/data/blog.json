@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "title": "Next.js-də Server Side Rendering",
+    "src": "/images/blog1.jpg",
+    "date": "2025-02-07",
+    "content": "Bu məqalədə SSR haqqında danışacağıq..."
+  },
+  {
+    "id": 2,
+    "title": "React və Next.js ilə SEO Optimallaşdırması",
+    "src": "/images/blog2.jpg",
+    "date": "2025-02-06",
+    "content": "SEO-nu inkişaf etdirmək üçün əsas addımlar..."
+  }
+]

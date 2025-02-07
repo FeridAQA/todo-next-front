@@ -9,16 +9,16 @@ function Hero() {
                     <Link href="/">
                         <div className="bg-my_accept text-white p-2">Home</div>
                     </Link>
-                    <Link href="about">
+                    <Link href="/about">
                         <div className="bg-my_accept text-white p-2">about</div>
                     </Link>
-                    <Link href="blog">
+                    <Link href="/blog">
                         <div className="bg-my_accept text-white p-2">blog</div>
                     </Link>
-                    <Link href="login">
+                    <Link href="/login">
                         <div className="bg-my_accept text-white p-2">login</div>
                     </Link>
-                    <Link href="register">
+                    <Link href="/register">
                         <div className="bg-my_accept text-white p-2">register</div>
                     </Link>
                 </div>
