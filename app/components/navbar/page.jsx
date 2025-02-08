@@ -4,7 +4,7 @@ import React from 'react'
 function Hero() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar mb-3 navbar-expand-lg navbar-light bg-light">
                 <div className="justify-center items-center space-x-3 flex">
                     <Link href="/">
                         <div className="bg-my_accept text-white p-2">Home</div>
