@@ -4,15 +4,15 @@ import React from 'react'
 function Hero() {
     return (
         <div>
-            <nav className="navbar mb-3 navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar mb-3 navbar-expand-lg navbar-light bg-light fixed z-10 bg-black">
                 <div className="justify-center items-center space-x-3 flex">
-                    <Link href="/">
+                    <Link   href="/">
                         <div className="bg-my_accept text-white p-2">Home</div>
                     </Link>
-                    <Link href="/about">
+                    <Link scroll={false} href="/about">
                         <div className="bg-my_accept text-white p-2">about</div>
                     </Link>
-                    <Link href="/blog">
+                    <Link  replace	href="/blog">
                         <div className="bg-my_accept text-white p-2">blog</div>
                     </Link>
                     <Link href="/login">
@@ -20,6 +20,9 @@ function Hero() {
                     </Link>
                     <Link href="/register">
                         <div className="bg-my_accept text-white p-2">register</div>
+                    </Link>
+                    <Link href="/rout">
+                        <div className="bg-my_accept text-white p-2">ROUT</div>
                     </Link>
                 </div>
             </nav>

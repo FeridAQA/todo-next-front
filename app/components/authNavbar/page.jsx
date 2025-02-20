@@ -4,7 +4,7 @@ import React from 'react'
 const AuthNavbar = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed">
                 <div className="justify-center items-center space-x-3 flex">
                     <Link href="/">
                         <div className="bg-red-900 text-white p-2">Home</div>
